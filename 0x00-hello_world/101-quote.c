@@ -10,7 +10,7 @@ int main(void)
 {
 FILE *fp;
 char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-fp = fopen("file.txt" , "w")
+fp = fopen("file.txt" , "w");
 fwrite(str1,1,sizeof(str1));
 return (1);
 }
