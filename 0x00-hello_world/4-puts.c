@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc puts.c
+gcc $PFILE
+
