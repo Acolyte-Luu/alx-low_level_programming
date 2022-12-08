@@ -8,9 +8,7 @@
 */
 int main(void)
 {
-FILE *fp;
-char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-fp = fopen("file.txt", "w");
-fwrite(str1, 1, sizeof(str1), fp);
+int q;
+Q = write(1, "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n", 60);
 return (1);
 }
