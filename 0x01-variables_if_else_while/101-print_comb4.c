@@ -12,7 +12,7 @@ int main(void)
 int dig1, dig2, dig3, k = 0;
 for (dig1 = '0'; dig1 <= '9'; dig1++)
 {
-for (dig2 = dig1 + 1; dig2 <= '9'; dig2++, k++)
+for (dig2 = dig1 + 1; dig2 <= '9'; dig2++)
 {
 for (dig3 = dig1 + 2; dig3 <= '9'; dig3++, k++)
 {
