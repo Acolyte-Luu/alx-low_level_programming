@@ -19,20 +19,23 @@ for (dig3 = '0'; dig3 <= '9'; dig3++)
 {
 for (dig4 = dig3 + 1; dig4 <= '9'; dig4++, j++)
 {
-if (k > 0 && j > 0)
+if (k > 0)
 {
 putchar(' ');
+}
+if (j > 0)
+{
 putchar(',');
 putchar(' ');
 }
 putchar(dig1);
 putchar(dig2);
-}
-}
 putchar(dig3);
 putchar(dig4);
 }
-} 
+}
+}
+}
 putchar('\n');
 return (0);
 }
