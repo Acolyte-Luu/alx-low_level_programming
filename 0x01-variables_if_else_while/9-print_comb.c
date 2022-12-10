@@ -2,20 +2,16 @@
 /**
 *main - Entry point
 *int ch - integer ch
-*int cd - integer cd
 *Return: Always 0 (Success)
 */
 int main(void)
 {
 int ch;
-int cd;
-for (ch = 'a'; ch <= 'z'; ch++)
+for (ch = '0'; ch <= '9'; ch++)
 {
 putchar(ch);
-}
-for (cd = 'A'; cd <= 'Z'; cd++)
-{
-putchar(cd);
+putchar(',')
+putchar(' ')
 }
 putchar('\n');
 return (0);
