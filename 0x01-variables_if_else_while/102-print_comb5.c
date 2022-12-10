@@ -21,7 +21,7 @@ for (dig4 = dig3 + 1; dig4 <= '9'; dig4++, j++)
 {
 if (k > 0)
 {
-putchar(' ')
+putchar(' ');
 putchar(',');
 putchar(' ');
 }
