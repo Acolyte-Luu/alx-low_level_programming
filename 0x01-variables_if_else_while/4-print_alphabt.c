@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int ch;
+int ch = 'a';
 do {
 putchar(ch);
 } while (ch != 'e' && ch != 'q');
