@@ -19,15 +19,12 @@ for (dig3 = '0'; dig3 <= '9'; dig3++, k++)
 {
 for (dig4 = dig2 + 1; dig4 <= '9'; dig4++, j++)
 {
-if (j > 0)
-{
-putchar(',');
-putchar(' ');
-}
 putchar(dig1);
 putchar(dig2);
-if (k > 0)
+if (k > 0 && j > 0)
 {
+putchar(' ');
+putchar (',');
 putchar(' ');
 }
 putchar(dig3);
