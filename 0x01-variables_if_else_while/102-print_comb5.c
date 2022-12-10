@@ -17,7 +17,7 @@ for (dig2 = '0'; dig2 <= '9'; dig2++, j++)
 {
 for (dig3 = '0'; dig3 <= '9'; dig3++, k++)
 {
-for (dig4 = dig3 + 1; dig4 <= '9'; dig4++, j++)
+for (dig4 = dig1 + 1; dig4 <= '9'; dig4++, j++)
 {
 if (j > 0)
 {
