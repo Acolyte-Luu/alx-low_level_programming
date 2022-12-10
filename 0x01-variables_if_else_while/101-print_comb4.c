@@ -21,10 +21,10 @@ if (k > 0)
 putchar(',');
 putchar(' ');
 }
-}
 putchar(dig1);
 putchar(dig2);
 putchar(dig3);
+}
 }
 }
 putchar('\n');
