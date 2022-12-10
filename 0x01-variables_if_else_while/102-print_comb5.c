@@ -27,12 +27,12 @@ putchar(' ');
 }
 putchar(dig1);
 putchar(dig2);
+}
+}
 putchar(dig3);
 putchar(dig4);
 }
-}
-}
-}
+} 
 putchar('\n');
 return (0);
 }
