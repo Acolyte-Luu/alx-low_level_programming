@@ -28,7 +28,7 @@ putchar(dig1);
 putchar(dig2);
 if (j > 0)
 {
-putchar(' ')
+putchar(' ');
 }
 putchar(dig3);
 putchar(dig4);
