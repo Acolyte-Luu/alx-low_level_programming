@@ -11,13 +11,13 @@
 int main(void)
 {
 int dig1, dig2, dig3, dig4, j = 0, k = 0;
-for (dig1 = '0'; dig1 <= '9'; dig1++)
+for (dig1 = '0'; dig1 <= '9'; dig1++, k++)
 {
-for (dig2 = '0'; dig2 <= '9'; dig2++, k++)
+for (dig2 = '0'; dig2 <= '9'; dig2++)
 {
-for (dig3 = dig2 + 1; dig3 <= '9'; dig3++)
+for (dig3 = dig1 + 1; dig3 <= '9'; dig3++, j++)
 {
-for (dig4 = dig3 + 1; dig4 <= '9'; dig4++, j++)
+for (dig4 = dig2 + 1; dig4 <= '9'; dig4++)
 {
 if (k > 0)
 {
