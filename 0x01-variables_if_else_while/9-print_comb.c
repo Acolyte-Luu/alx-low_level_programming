@@ -8,14 +8,14 @@
 int main(void)
 {
 int ch, k = 0;
-for (ch = '0'; ch <= '9'; ch++)
+for (ch = '0'; ch <= '9'; ch++, k++)
 {
-putchar(ch);
 if (k > 0)
 {
 putchar(',');
 putchar(' ');
 }
+putchar(ch);
 }
 putchar('\n');
 return (0);
