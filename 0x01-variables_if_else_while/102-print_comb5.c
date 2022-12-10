@@ -26,10 +26,7 @@ putchar(' ');
 }
 putchar(dig1);
 putchar(dig2);
-if (k > 0)
-{
 putchar(' ');
-}
 putchar(dig3);
 putchar(dig4);
 }
