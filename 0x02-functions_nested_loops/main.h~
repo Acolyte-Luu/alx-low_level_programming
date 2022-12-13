@@ -1,0 +1,23 @@
+#ifndef MAIN_H
+#define MAIN_H
+/**
+* printPut(): function to print string
+*/
+void printPut(void)
+{
+int max = 80;
+int count;
+char msg[] = "_putchar";
+for (int count = 0; count < max; count++)
+{
+if (msg[count] == '\0')
+{
+break;
+}
+else
+putchar(msg[count]);
+putchar('\n');
+}
+return (0);
+}
+#endif
