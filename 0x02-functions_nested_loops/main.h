@@ -6,6 +6,7 @@
 */
 void printPut(void)
 {
+int count;
 int max = 80;
 char msg[] = "_putchar";
 for (int count = 0; count < max; count++)
