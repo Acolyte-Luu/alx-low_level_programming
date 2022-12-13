@@ -8,5 +8,6 @@
 int main(void)
 {
 printPut();
+putchar('\n');
 return (0);
 }
