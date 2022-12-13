@@ -8,4 +8,5 @@
 int main(void)
 {
 printPut();
+return (0);
 }

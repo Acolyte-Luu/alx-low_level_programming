@@ -19,6 +19,5 @@ else
 putchar(msg[count]);
 putchar('\n');
 }
-return (0);
 }
 #endif
