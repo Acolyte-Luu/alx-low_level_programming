@@ -19,6 +19,10 @@ else
 putchar(msg[count]);
 }
 }
+#endif
+
+#ifndef MAIN_H
+#define MAIN_H
 /**
 * print_alphabet - 'print alphabet in lowercase'
 * print_alphabet(): function call to print alphabet in lowercase
