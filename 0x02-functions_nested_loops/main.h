@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 /**
 * printPut - 'program to print'
 * printPut(): function to print string
