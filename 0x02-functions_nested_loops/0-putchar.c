@@ -1,13 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *main - Entry point
-*printPut - 'call of the function printPut'
 *Return: Always 0 (Success)
 */
 int main(void)
 {
-printPut();
-putchar('\n');
+int count;
+int max = 80;
+char msg[] = "_putchar";
+for (count = 0; count < max; count++)
+{
+if (msg[count] == '\0')
+{
+break;
+}
+else
+_putchar(msg[count]);
+_putchar('\n');
+}
 return (0);
 }
