@@ -16,7 +16,7 @@ break;
 }
 else
 _putchar(msg[count]);
-_putchar('\n');
 }
+_putchar('\n');
 return (0);
 }
