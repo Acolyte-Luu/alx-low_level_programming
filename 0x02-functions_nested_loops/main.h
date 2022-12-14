@@ -20,3 +20,4 @@ putchar(msg[count]);
 }
 }
 int _putchar(char);
+#endif
