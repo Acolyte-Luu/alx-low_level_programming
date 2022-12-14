@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*main - Entry point
-*print_alphabet - 'call of the function print_alphabet'
+*print_alphabet - function that prints alphabet
 *Return: Always 0 (Success)
 */
 void print_alphabet(void)
