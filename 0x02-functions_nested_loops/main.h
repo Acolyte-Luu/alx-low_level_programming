@@ -1,6 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
+* _putchar - writes the character c to stdout
+* @c: The character to print
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
+/**
 * printPut - 'program to print'
 * printPut(): function to print string
 */
@@ -19,10 +29,6 @@ else
 putchar(msg[count]);
 }
 }
-#endif
-
-#ifndef MAIN_H
-#define MAIN_H
 /**
 * print_alphabet - 'print alphabet in lowercase'
 * print_alphabet(): function call to print alphabet in lowercase
