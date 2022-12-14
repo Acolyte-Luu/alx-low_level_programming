@@ -16,7 +16,7 @@ if (msg[count] == '\0')
 break;
 }
 else
-putchar(msg[count]);
+_putchar(msg[count]);
 }
 }
 int _putchar(char);
