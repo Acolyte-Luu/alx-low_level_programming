@@ -19,4 +19,18 @@ else
 putchar(msg[count]);
 }
 }
+/**
+* print_alphabet - 'print alphabet in lowercase'
+* print_alphabet(): function call to print alphabet in lowercase
+*
+*/
+void print_alphabet(void)
+{
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
+}
+putchar('\n');
+}
 #endif
