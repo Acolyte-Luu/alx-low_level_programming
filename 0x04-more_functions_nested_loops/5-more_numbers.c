@@ -9,7 +9,7 @@ int ch;
 int count;
 for (count = 0; count < 10; count++)
 {
-for (ch = 1 ; ch <= 15; ch++)
+for (ch = 1 ; ch < 15; ch++)
 {
 if (ch >= 10)
 _putchar((ch / 10) + 48);
