@@ -11,8 +11,8 @@ for (ch = '0'; ch <= '9'; ch++)
 {
 if (ch != '2' && ch != '4')
 {
-putchar(ch);
+_putchar(ch);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
