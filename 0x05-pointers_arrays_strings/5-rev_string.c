@@ -22,8 +22,7 @@ for (a = 0; a < (count - 1); a++)
 for (b = a + 1; b > 0; b--)
 {
 temp = *(str + b);
-str = str + b;
-str = (str + (b - 1));
+*(str + b) = *(str + (b - 1));
 *(str + (b - 1)) = temp;
 }
 }
