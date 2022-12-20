@@ -14,7 +14,7 @@ while (count >= 0)
 {
 if (s[count] == '\0')
 break;
-count = count + 1
+count = count + 1;
 }
 str = s;
 for (a = 0; a < (count - 1); a++)
