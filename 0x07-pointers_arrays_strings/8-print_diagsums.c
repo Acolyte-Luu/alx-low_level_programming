@@ -15,5 +15,5 @@ sumx = sumx + *(a + 1);
 if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
 sumy = sumy + *(a + 1);
 }
-printf("%d, %d\n", suma, sumb);
+printf("%d, %d\n", sumx, sumy);
 }
