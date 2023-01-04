@@ -7,13 +7,13 @@
 */
 void print_diagsums(int *a, int size)
 {
-int i, suma = 0, sumb = 0;
+int i, sumx = 0, sumy = 0;
 for (i = 0; i < (size * size); i++)
 {
 if (i % (size + 1) == 0)
-suma += *(a + 1);
- if (i % (size - 1) == 0 && i != 0 && i < size * (size - 1))
-sumb += *(a + 1);
+sumx += *(a + 1);
+if (i % (size - 1) == 0 && i != 0 && i < (size * size) - 1)
+sumy += *(a + 1);
 }
 printf("%d, %d\n", suma, sumb);
 }
