@@ -19,7 +19,7 @@ haystack++;
 jneedle++;
 }
 if (!*jneedle)
-return (ihaystack)
+return (ihaystack);
 haystack = ihaystack + 1;
 }
 return ('\0');
