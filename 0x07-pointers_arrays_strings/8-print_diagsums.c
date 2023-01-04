@@ -11,9 +11,9 @@ int i, sumx = 0, sumy = 0;
 for (i = 0; i < (size * size); i++)
 {
 if (i % (size + 1) == 0)
-sumx += *(a + 1);
-if (i % (size - 1) == 0 && i != 0 && i < (size * size) - 1)
-sumy += *(a + 1);
+sumx = sumx + *(a + 1);
+if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
+sumy = sumy + *(a + 1);
 }
 printf("%d, %d\n", suma, sumb);
 }
