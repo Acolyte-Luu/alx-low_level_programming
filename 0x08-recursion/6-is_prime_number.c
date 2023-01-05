@@ -17,17 +17,11 @@ return (is_prime_checker(n, 2));
 int is_prime_checker(int n, int i)
 {
 if (n <= 1)
-{
 return (0);
-}
-if (i > _sqrt_recursion(n))
-{
+else if (i > _sqrt_recursion(n))
 return (1);
-if (n % i == 0)
-{
+else if (n % i == 0)
 return (0);
-}
 else
 return (is_prime_checker(n, i + 1));
-}
 }
