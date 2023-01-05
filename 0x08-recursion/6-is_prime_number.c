@@ -12,7 +12,7 @@ return (is_prime_checker(n, 2));
 *is_prime_checker - helper function that determines prime number
 *@n: nummber to check
 *@i: divisor int
-*Return: 1 if number is prime, 0 if not
+*Return: 1 if number is prime
 */
 int is_prime_checker(int n, int i)
 {
@@ -27,6 +27,7 @@ if (n % i == 0)
 {
 return (0);
 }
+else
 return (is_prime_checker(n, i + 1));
 }
 }
