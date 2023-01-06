@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 /**
 *is_prime_number - funcion that checks if a number is prime
 *@n: number to check
@@ -20,7 +21,7 @@ if (n <= 1)
     {
       return (0);
     }
-if (i > _sqrt_recursion(n))
+if (n <= 3)
     {
       return (1);
     }
@@ -28,5 +29,9 @@ if (n % i == 0)
     {
       return (0);
     }
-  return (is_prime_checker(n, 2));
+ if (i * i > n)
+   {
+     return (1);
+   }
+  return (is_prime_checker(n, i + 1));
 }
