@@ -20,7 +20,7 @@ if (n <= 1)
 {
 return (0);
 }
-if (i > _sqrt_recursion(n))
+if (i > _sqrt(n))
 {
 return (1);
 }
