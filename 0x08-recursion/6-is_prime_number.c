@@ -29,5 +29,4 @@ if (n % i == 0)
 return (0);
 }
 return (is_prime_checker(n, i + 1));
-return (0);
 }
