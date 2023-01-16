@@ -3,7 +3,7 @@
 /**
 * struct dog - struct that contains variables
 * @name: stores name of dog in char array
-* @age: stores float 
+* @age: stores float
 * @owner: stores name of owner in char array
 */
 struct dog
