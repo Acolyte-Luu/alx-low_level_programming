@@ -14,4 +14,5 @@ if (name == NULL || f == NULL)
 return;
 ptr = f;
 ptr(name);
+_putchar('\n');
 }
