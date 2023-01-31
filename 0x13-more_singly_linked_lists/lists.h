@@ -9,7 +9,7 @@
 * @str: string - (malloc'ed string)
 * @len: length of the string
 * @next: points to the next node
-* Description: singly linked list node struct
+* Description: singly linked list node structure
 */
 typedef struct list_s
 {
@@ -26,7 +26,7 @@ void free_list(list_t *head);
 * struct listint_s - singly linked list
 * @n: integer
 * @next: points to the next node
-* Description: singly linked list node struct
+* Description: singly linked list node structure
 */
 typedef struct listint_s
 {
