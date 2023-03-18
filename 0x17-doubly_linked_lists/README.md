@@ -1,0 +1,1 @@
+Tasks to complement the studying of lists and linked lists in C
